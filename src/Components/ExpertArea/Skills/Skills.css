@@ -1,0 +1,10 @@
+.languages {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  color: gray;
+  padding-block: 40px;
+}
+.skills-icon {
+  background-color: gray;
+  margin-inline: 2px;
+}
