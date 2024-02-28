@@ -10,8 +10,8 @@ import { FcIdea } from "react-icons/fc";
 const Portfolio = () => {
   return (
     <div id="projects" className="">
-      <div className="lg:px-[200px] px-5 my-[60px] ">
-        <div className='py-14 lg:pl-16'><h1 className="text-lg  ">My Projects</h1>
+      <div className="lg:px-[200px]  my-[60px] ">
+        <div className='py-14 lg:pl-16 px-5'><h1 className="text-lg  ">My Projects</h1>
           <div className='flex space-x-1'><p className='text-2xl  pt-2'>Transforming Ideas into Seamless Digital Experiences</p>
             <FcIdea size={30} />
           </div>

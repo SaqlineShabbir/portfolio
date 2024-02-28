@@ -1,8 +1,8 @@
 // import './Services.css';
 const Service = () => {
   return (
-    <div className="services-main py-20 px-10 lg:px-[280px]">
-      <h1 className="text-lg ">
+    <div className="services-main py-20 px-5 lg:px-[260px]">
+      <h1 className="text-lg text-center lg:text-left">
         Services I Provide
       </h1>
       <div className="services-content-wrapper py-10">
@@ -17,7 +17,7 @@ const Service = () => {
               Assumenda error natus debitis, totam minus quae iusto inventore
             </p>
           </div>
-         
+
         </div>
         <div className="services-content   hover:bg-gray-100 py-5 px-5  border-b-2">
           <div className="d-flex service-content-text-main ">

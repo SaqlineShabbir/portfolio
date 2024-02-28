@@ -126,8 +126,8 @@ const Contact = () => {
       <h1 className="text-center font-bold text-2xl fw-bolder">
         GET IN TOUCH
       </h1>
-      <div className="contact-content  lg:flex justify-between px-5 lg:px-[200px]">
-        <div className="contact-texts  pt-[100px] pr-6 ">
+      <div className="contact-content px-0 lg:flex justify-between  lg:px-[200px]">
+        <div className="contact-texts  pt-[80px]  ">
           <h4 className='text-lg font-bold'>SEY HELLO!</h4>
           <p>
             Feel free to get in touch with me .I'm always open to discussing new
