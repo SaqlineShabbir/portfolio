@@ -1,7 +1,7 @@
 import { IoLogoJavascript, IoMdDownload } from 'react-icons/io';
 // import Lottie from 'react-lottie';
 // import animationData from '../../../Lottie/developer.json';
-import file from '../../../resume/Sabbir Hossain Resume.pdf';
+
 import Header from '../../Shared/Header/Header';
 import profile from '../../../asset/images/me.jpg'
 import { FaFilePowerpoint, FaHtml5, FaLinkedin, FaNode, FaReact } from "react-icons/fa";
