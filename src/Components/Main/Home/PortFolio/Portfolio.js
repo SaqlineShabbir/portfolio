@@ -4,21 +4,21 @@ import { GoLinkExternal } from 'react-icons/go';
 import { Link } from 'react-router-dom';
 import img1 from '../../../../asset/images/digital  village.PNG';
 import img3 from '../../../../asset/images/doctors  portal.PNG';
-import img from '../../../../asset/images/on.PNG';
+import img from '../../../../asset/images/q.PNG';
 import img2 from '../../../../asset/images/portfolioimg1.PNG';
 import { FcIdea } from "react-icons/fc";
 const Portfolio = () => {
   return (
-    <div id="projects" className="">
-      <div className="lg:px-[200px]  my-[60px] ">
-        <div className='py-14 lg:pl-16 px-5'><h1 className="text-lg  ">My Projects</h1>
-          <div className='flex space-x-1'><p className='text-2xl  pt-2'>Transforming Ideas into Seamless Digital Experiences</p>
-            <FcIdea size={30} />
+    <div className="px-5">
+      <div className="lg:px-[200px] my-[60px] ">
+        <div className=' py-20' ><h1 className="font-Raleway font-bold lg:md:text-5xl text-3xl text-center lg:text-left"> Check Out My Projects</h1>
+          <div className='flex space-x-1'><p className='text-xl pt-2 text-center  font-Raleway lg:text-left'>Transforming Ideas into Seamless Digital Experiences </p><FcIdea size={30} />
+
           </div>
         </div>
         <div className="pMain space-y-20">
           {/* //project start */}
-          <div className="lg:flex lg:w-[100%]  px-5">
+          <div className="lg:flex lg:w-[100%] ">
             <div className="lg:w-[50%] flex justify-center">
               <img
                 className="lg:w-[400px] h-[250px] border rounded-xl"

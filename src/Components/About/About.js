@@ -12,7 +12,7 @@ const About = () => {
   return (
     <>
 
-      <div id="about" className=" lg:flex  lg:px-[200px] lg:py-10 mx-5 ">
+      <div id="about" className=" lg:flex lg:flex-row lg:px-[200px] lg:py-10  px-5">
 
         <div className="lg:flex">
           <div>

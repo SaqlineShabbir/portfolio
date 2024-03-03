@@ -123,7 +123,7 @@ const Contact = () => {
           detectRetina: true,
         }}
       />
-      <h1 className="text-center font-bold text-2xl fw-bolder">
+      <h1 className="text-center font-bold lg:text-5xl text-3xl fw-bolder">
         GET IN TOUCH
       </h1>
       <div className="contact-content px-0 lg:flex justify-between  lg:px-[200px]">

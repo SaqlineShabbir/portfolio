@@ -6,7 +6,7 @@ import Experience from './Components/ExpertArea/Experience/Experience';
 import ExpertArea from './Components/ExpertArea/ExpertArea';
 import Skills from './Components/ExpertArea/Skills/Skills';
 import Home from './Components/Main/Home/Home';
-import ProjectDetails from './Components/Main/Projects/ProjectDetails/ProjectDetails';
+
 import useEverything from './hooks/useEverything';
 
 function App() {
@@ -43,12 +43,7 @@ function App() {
             {/* <Routes>
               <Route path="/blogs" element={<Blogs />} />
             </Routes> */}
-            <Routes>
-              <Route
-                path="/projectDetails/:projectId"
-                element={<ProjectDetails />}
-              />
-            </Routes>
+
             {/* <Routes>
               <Route path="/skills" element={<Skills />} />
             </Routes>

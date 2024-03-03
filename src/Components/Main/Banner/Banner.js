@@ -4,8 +4,8 @@ import { IoLogoJavascript, IoMdDownload } from 'react-icons/io';
 
 import Header from '../../Shared/Header/Header';
 import profile from '../../../asset/images/me.jpg'
-import { FaFilePowerpoint, FaHtml5, FaLinkedin, FaNode, FaReact } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { FaHtml5, FaNode, FaReact } from "react-icons/fa";
+
 import { SiCss3, SiJavascript } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 const Banner = () => {
@@ -22,12 +22,12 @@ const Banner = () => {
   //   },
   // };
   return (
-    <div className="bannerAndHeader  mt-10 ">
+    <div className="bannerAndHeader mt-10 ">
       <Header></Header>
-      <div className='lg:px-[300px] px-5 lg:py-[170px] py-20'>
+      <div className='min-h-[90vh] flex flex-col justify-center lg:px-[250px]  px-5 lg:pt-0 pt-20'>
         <div className="banner-container lg:flex justify-between items-center  lg:px-0  md:px-[100px] lg:space-x-[150px]   w-[100%]">
           <div className="banner-text   space-y-3 lg:w-[60%]">
-            <h1 className=" text-6xl  font-bold">
+            <h1 className=" font-Raleway font-bold lg:text-7xl text-5xl">
               I'm excited that
               <br /> you're here
             </h1>
