@@ -9,7 +9,7 @@ import img2 from '../../../../asset/images/portfolioimg1.PNG';
 import { FcIdea } from "react-icons/fc";
 const Portfolio = () => {
   return (
-    <div className="px-5">
+    <div id="projects" className="px-5">
       <div className="lg:px-[200px] my-[60px] ">
         <div className=' py-20' ><h1 className="font-Raleway font-bold lg:md:text-5xl text-3xl text-center lg:text-left"> Check Out My Projects</h1>
           <div className='flex space-x-1'><p className='text-xl pt-2 text-center  font-Raleway lg:text-left'>Transforming Ideas into Seamless Digital Experiences </p><FcIdea size={30} />
