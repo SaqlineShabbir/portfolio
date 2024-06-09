@@ -88,11 +88,7 @@ const Resume = () => {
   // randomBlob(blobRef);
 
   return (
-    <div
-      data-aos="fade-up"
-      data-aos-duration="2000"
-      className="max-w-[1380px] mx-auto w-full"
-    >
+    <div className="max-w-[1380px] mx-auto w-full">
       <div className="lg:md:px-0 px-4 lg:md:py-30 py-20">
         <div className="blob2" style={{ filter: "blur(100px)" }}></div>
         <div
