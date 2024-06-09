@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import { GoDotFill } from "react-icons/go";
 const Resume = () => {
   const experience = [
@@ -72,11 +72,6 @@ const Resume = () => {
       logo: "https://static.macupdate.com/products/62461/m/mongodb-compass-logo.png?v=1663508519",
     },
 
-    // {
-    //   id: 7,
-    //   name: "Trello",
-    //   logo: "https://assets.stickpng.com/images/58482beecef1014c0b5e4a36.png",
-    // },
     {
       id: 8,
       name: "Vercel",
@@ -88,27 +83,9 @@ const Resume = () => {
       logo: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Swagger-logo.png",
     },
   ];
-  const blobRef = useRef(null);
-  useEffect(() => {
-    const blob = blobRef.current;
-    const handleResize = () => {
-      //   randomBlob(blobRef);
-    };
 
-    // Randomize the initial position
-    // randomBlob(blobRef);
-
-    window.addEventListener("resize", handleResize);
-
-    const intervalId = setInterval(() => {
-      //   randomBlob(blobRef);
-    }, 4000);
-
-    return () => {
-      clearInterval(intervalId);
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
+  // Randomize the initial position
+  // randomBlob(blobRef);
 
   return (
     <div
@@ -117,11 +94,7 @@ const Resume = () => {
       className="max-w-[1380px] mx-auto w-full"
     >
       <div className="lg:md:px-0 px-4 lg:md:py-30 py-20">
-        <div
-          ref={blobRef}
-          className="blob2"
-          style={{ filter: "blur(100px)" }}
-        ></div>
+        <div className="blob2" style={{ filter: "blur(100px)" }}></div>
         <div
           className="rounded-xl px-6 py-12"
           style={{ background: "rgba(200, 200, 200, 0.05)" }}
